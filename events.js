@@ -54,10 +54,10 @@ function three () {
 
 function four () {
   // First, we have to find the element:
-  var three = document.getElementById('four')
+  var four = document.getElementById('four')
 
   // Next, we add an event listener to it:
-  four.addEventListener('click', makeBlack)
+  four.addEventListener('click', makeRed)
 
   // Finally, we add one to make the colour white again
   four.addEventListener('mouseleave', makeWhite)
@@ -80,6 +80,6 @@ function makePink (evt) {
   evt.target.style.backgroundColor = 'Pink'
 }
 
-function makeBlack (evt) {
-  evt.target.style.backgroundColor = 'Black'
+function makeRed (evt) {
+  evt.target.style.backgroundColor = 'Red'
 }
